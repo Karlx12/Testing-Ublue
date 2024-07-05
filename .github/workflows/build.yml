@@ -149,7 +149,7 @@ jobs:
           COSIGN_EXPERIMENTAL: false
           COSIGN_PRIVATE_KEY: ${{ secrets.SIGNING_SECRET }}
       - name: Build Container Installer
-        uses: JasonN3/build-container-installer@v1.2.0
+        uses: JasonN3/build-container-installer@v1.2.1
         id: build
         with:
           iso_name: Testing.iso
